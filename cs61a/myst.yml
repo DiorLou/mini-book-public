@@ -1,0 +1,27 @@
+version: 1
+
+project:
+  id: cs61a-notes
+  title: "CS61A: Structure and Interpretation of Computer Programs"
+  description: CS61A 视频课程学习笔记：程序结构、表达式求值与程序设计
+  authors:
+    - Diorlou
+  exports:
+    - id: cs61a-notes-pdf
+      format: typst
+      template: plain_typst_book
+      fontstyle: Noto Sans SC
+      articles:
+        - intro.md
+        - lecture-1/welcome/evaluation-procedure.md
+      output: _build/exports/cs61a-notes.pdf
+  downloads:
+    - id: cs61a-notes-pdf
+      title: 下载 CS61A 学习笔记 PDF
+
+extends:
+  - toc.yml
+
+site:
+  title: "CS61A: Structure and Interpretation of Computer Programs"
+  template: book-theme

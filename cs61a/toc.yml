@@ -1,0 +1,10 @@
+version: 1
+project:
+  toc:
+    - file: intro.md
+    - title: Lecture 1
+      children:
+        - title: Welcome
+          children:
+            - title: 调用表达式的求值过程
+              file: lecture-1/welcome/evaluation-procedure.md

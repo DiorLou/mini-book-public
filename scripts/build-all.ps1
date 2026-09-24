@@ -14,7 +14,8 @@ else {
 }
 $Projects = @(
     @{ Path = "american intonation"; Slug = "american-intonation"; Pdf = "american-intonation.pdf" },
-    @{ Path = "vocabulary"; Slug = "vocabulary"; Pdf = "vocabulary-notes.pdf" }
+    @{ Path = "vocabulary"; Slug = "vocabulary"; Pdf = "vocabulary-notes.pdf" },
+    @{ Path = "cs61a"; Slug = "cs61a"; Pdf = "cs61a-notes.pdf" }
 )
 
 if ($ChangedOnly -and -not $PublishDir) {

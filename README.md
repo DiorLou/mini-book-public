@@ -1,11 +1,12 @@
 # Mini Book
 
-这个公开仓库维护两本相互独立的 MyST 笔记，并为每一本生成网页和 PDF。
+这个公开仓库维护三本相互独立的 MyST 笔记，并为每一本生成网页和 PDF。
 
 | 内容 | 源目录 | 网页路径 | PDF |
 | --- | --- | --- | --- |
 | American intonation | `american intonation/` | `/american-intonation/` | `american-intonation.pdf` |
 | 记单词 | `vocabulary/` | `/vocabulary/` | `vocabulary-notes.pdf` |
+| CS61A: Structure and Interpretation of Computer Programs | `cs61a/` | `/cs61a/` | `cs61a-notes.pdf` |
 
 ## 使用 Codex 整理笔记
 
@@ -44,4 +45,4 @@ npm install -g mystmd
 
 ## 发布
 
-推送到 `main` 分支后，GitHub Actions 会构建两本书籍，生成首页并部署到 GitHub Pages。
+推送到 `main` 分支后，GitHub Actions 会构建三本书籍，生成首页并部署到 GitHub Pages。
