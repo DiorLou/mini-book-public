@@ -1,11 +1,9 @@
 # Mini Book
 
-这个公开仓库维护四本相互独立的 MyST 笔记，并为每一本生成网页和 PDF。
+这个公开仓库维护两本相互独立的 MyST 笔记，并为每一本生成网页和 PDF。
 
 | 内容 | 源目录 | 网页路径 | PDF |
 | --- | --- | --- | --- |
-| 计算机与深度学习 | `deep learning/` | `/computer/` | `computer-notes.pdf` |
-| 金融投资 | `finance/` | `/finance/` | `finance-notes.pdf` |
 | American intonation | `american intonation/` | `/american-intonation/` | `american-intonation.pdf` |
 | 记单词 | `vocabulary/` | `/vocabulary/` | `vocabulary-notes.pdf` |
 
@@ -20,7 +18,7 @@
 示例指令：
 
 ```text
-把刚才关于交叉熵的问答整理成笔记，位置你判断。
+把刚才关于英语语调的问答整理成笔记，位置你判断。
 开始收集这段视频的学习笔记，我会连续发送截图，等我说发完了再整理。
 这个句子里的 composure 是什么意思？
 ```
@@ -46,4 +44,4 @@ npm install -g mystmd
 
 ## 发布
 
-推送到 `main` 分支后，GitHub Actions 会构建四本书籍，生成首页并部署到 GitHub Pages。
+推送到 `main` 分支后，GitHub Actions 会构建两本书籍，生成首页并部署到 GitHub Pages。

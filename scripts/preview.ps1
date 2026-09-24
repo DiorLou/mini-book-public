@@ -18,7 +18,7 @@ $Url = "http://localhost:$Port/"
 $ServerIsRunning = $false
 try {
     $Response = Invoke-WebRequest -Uri $Url -UseBasicParsing -TimeoutSec 2
-    if ($Response.StatusCode -eq 200 -and $Response.Content -match '\./computer/') {
+    if ($Response.StatusCode -eq 200 -and $Response.Content -match '\./vocabulary/') {
         $ServerIsRunning = $true
     }
     else {
